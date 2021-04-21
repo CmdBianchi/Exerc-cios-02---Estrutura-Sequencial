@@ -24,7 +24,7 @@ namespace Exercícios_02___Estrutura_Sequencial
             Console.Write("Digite o valor do RAIO: ");
             raio = double.Parse(Console.ReadLine());
             area = pi * raio * raio;
-            Console.Write("O valor da área é: "+area);
+            Console.Write("O valor da área é: "+area.ToString("F4"));
                   
         }
         /////////////////////////////////////////////////////////////////////////////////////////////
